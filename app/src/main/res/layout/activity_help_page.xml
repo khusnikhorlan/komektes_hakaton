@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgmain"
+    tools:context=".help_page">
+
+
+    <TextView
+        android:id="@+id/tvHelp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/helpp"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.107"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <LinearLayout
+        android:id="@+id/LlDari"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/menu"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="@+id/tvHelp"
+        app:layout_constraintHorizontal_bias="0.004"
+        app:layout_constraintStart_toStartOf="@+id/tvHelp"
+        app:layout_constraintTop_toBottomOf="@+id/tvHelp">
+
+        <ImageView
+            android:id="@+id/ivDari"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="20dp"
+            app:srcCompat="@drawable/image_4" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvdari"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Дәріханаға бару"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/tvS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2км қашықтықта" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnDari"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:background="@color/transparent"
+            app:icon="@drawable/next"
+            app:iconTint="@color/purple_500" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Llshop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/menu"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="@+id/LlDari"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/LlDari"
+        app:layout_constraintTop_toBottomOf="@+id/LlDari">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="20dp"
+            app:srcCompat="@drawable/image_3" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Азық-түлік алу"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/tvqashyq"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1км қашықтықта" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnshop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:background="#00FFFFFF"
+            app:icon="@drawable/next"
+            app:iconTint="@color/purple_500" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Lltalk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/menu"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        app:layout_constraintEnd_toEndOf="@+id/Llshop"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/Llshop"
+        app:layout_constraintTop_toBottomOf="@+id/Llshop">
+
+        <ImageView
+            android:id="@+id/ivtalk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="20dp"
+            app:srcCompat="@drawable/image_2" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvtalk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Әңгімелесу"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/tvtalkqash"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3км қашықтықта" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btntalk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:background="#00FFFFFF"
+            app:icon="@drawable/next"
+            app:iconTint="@color/purple_500" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Llgo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/menu"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        app:layout_constraintEnd_toEndOf="@+id/Lltalk"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/Lltalk"
+        app:layout_constraintTop_toBottomOf="@+id/Lltalk">
+
+        <ImageView
+            android:id="@+id/ivgo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="20dp"
+            app:srcCompat="@drawable/image_1" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvgo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Клиникаға апару"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/tvgoqash"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5км қашықтықта" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btngo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:background="#00FFFFFF"
+            app:icon="@drawable/next"
+            app:iconTint="@color/purple_500" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LlMenu"
+        android:layout_width="320dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/menu"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Llgo"
+        app:layout_constraintVertical_bias="0.88">
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/transparent"
+            android:fontFamily="sans-serif-light"
+            app:icon="@drawable/like"
+            app:iconGravity="end"
+            app:iconTint="@color/purple_700"
+            app:iconTintMode="multiply"
+            app:strokeColor="@color/white"
+            app:strokeWidth="1dp" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/transparent"
+            android:shadowColor="#673AB7"
+            android:shadowDx="4"
+            app:cornerRadius="0dp"
+            app:icon="@drawable/user"
+            app:iconGravity="textEnd"
+            app:iconTint="@color/purple_700" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/transparent"
+            app:cornerRadius="0dp"
+            app:icon="@drawable/edit"
+            app:iconGravity="start"
+            app:iconTint="@color/purple_700" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

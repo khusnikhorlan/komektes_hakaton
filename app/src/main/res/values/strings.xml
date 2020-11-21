@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Komektes</string>
+    <string name="qaz">Менің көмектерім</string>
+    <string name="yo">18 жас</string>
+    <string name="city">Тараз қаласы</string>
+    <string name="name">Хұсни Хорлан</string>
+    <string name="feedbacks">Пікірлерім</string>
+    <string name="helpp">Қол ұшын беру</string>
+    <string name="dari">Дәріханаға бару</string>
+    <string name="shop">Азық-түлік алу</string>
+    <string name="talk">Әңгімелесу</string>
+    <string name="go">ХҚКО-ға бару</string>
+    <string name="esep">Есеп беру</string>
+    <string name="jukteu">Фотоны жүктеу</string>
+    <string name="tirkel">Кіру/Тіркелу</string>
+    <string name="number">Телефон номері</string>
+    <string name="password">Құпия сөз</string>
+    <string name="google">Google арқылы тіркелу</string>
+    <string name="facebook">Facebook арқылы тіркелу</string>
+    <string name="or">немесе</string>
+    <string name="registr">Кіру</string>
+    <string name="call">Байланысу</string>
+    <string name="shop_info">Дүкеннен өзіме қажет азық түлік алуым керек. Қыс мезгілі болған соң мүгедектер арбасымен жүріп тұруым қиын. Төлеби көшесі, 63-ші үйде тұрамын.</string>
+    <string name="full">Толығырақ</string>
+</resources>
